@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+/*Dette er min skrift/font*/
+*{
+margin: 0;
+padding:0;
+box-sizing: border-box;
+font-family: 'Open Sans Condensed', sans-serif;
+}
+/*Dette er min baggrundsfarve for hele siden, under alle billederne*/
+body{
+background: #CC897C
+}
+ 
+section{
+min-height:100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+/*Her har jeg delt mine billeder op i sections, så jeg kan justere på hvert et enkelt billede, 
+i denne section er det her headeren skal være og her intro'en er.*/
+section:nth-child(1){
+    background-image: url("billeder/halv.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}    
+/*Her er andet section hvor jeg beskriver kort om mig*/
+section:nth-child(2){
+    background-image: url("billeder/farver.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}     
+/*Denne trejde section indeholder mit arbejde som i både 
+skolerelaterede projekter og mine egne projekter.I denne section skal man kan kunne klikke
+sig hen til en ny side*/
+section:nth-child(3){
+    background-image: url("billeder/sort.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}    
+/*Her belyser mine evner indefor software og mine personlige evner*/
+section:nth-child(4){
+    background-image: url("billeder/vandret.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+/*Denne section er lavet således at man kan udfylde for at kontakte vedr*/
+section:nth-child(5){
+    background-image: url("billeder/omvendt.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+/*Her starter footeren*/
+footer {
+    background-image: url("billeder/øjne.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: #fff;
+} 
+/*Her slutter footeren*/
+
+section .container{
+ margin: 100px;   
+} 
+/*Her starter justeringen af teksterne*/
+.intro h1{
+    position: relative;
+    justify-content: center;
+  font-size: 5em; 
+  margin-top: -4em;
+  margin-left: 0em;
+  color:#fff;
+  letter-spacing: 3px;
+}   
+.intro h2{
+    position: relative;
+    justify-content: center;
+    margin-top: 0em;
+    margin-left: 0em;
+    color:#fff;
+    letter-spacing: 3px;
+  }   
+section h2{
+    font-size: 40 px;  
+    text-align: center;
+    text-transform: uppercase;
+  }   
+.om-chaima {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    margin-top: 1em;
+}
+.om-chaima h2 {
+    font-size: 5em;
+    margin-bottom: 2em;
+    color:#fff;s
+}
+
+.tekst-chaima {
+ font-size: 1.5em;
+ color:#fff;
+}
+
+.
