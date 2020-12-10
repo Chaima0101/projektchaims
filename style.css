@@ -3,7 +3,6 @@
 *{
 margin: 0;
 padding:0;
-box-sizing: border-box;
 font-family: 'Open Sans Condensed', sans-serif;
 text-decoration: none;
 list-style: none;
@@ -12,13 +11,40 @@ list-style: none;
 body{
 background: #CC897C
 }
- 
+/*header*/
+header {
+    background-color: rgba(255, 255, 255, 0.0);
+    padding: 2em 0em;
+  }
+  
+  ul {
+    display: flex;
+  }
+  
+  .menu {
+    margin-left: 30%;
+    margin-right: auto;
+
+  }
+  
+  li a {
+    font-size: x-large;
+    padding: 0em 2.2em;
+    color: #f4f4f4;
+    border-left: 1px solid;
+    text-align: center;
+  }
+
+  .line {
+border: none;
+  }
+
 section{
-min-height:100vh;
-display: flex;
+min-height: 110vh;
 justify-content: center;
 align-items: center;
 }
+
 /*Her har jeg delt mine billeder op i sections, så jeg kan justere på hvert et enkelt billede, 
 i denne section er det her headeren skal være og her intro'en er.*/
 section:nth-child(1){
@@ -74,20 +100,20 @@ section .container{
 /*Her starter justeringen af teksterne*/
 .intro h1{
     position: relative;
-    justify-content: center;
-    font-size: 5em; 
-    margin-top: -4em;
-    margin-left: 0em;
+    text-align: center;
+    font-size: 5em;
     color:#fff;
     letter-spacing: 3px;
+    margin-top: 1.5em;
+    margin-left: 1.5em;
 }   
 .intro h2{
     position: relative;
-    justify-content: center;
-    margin-top: 0em;
-    margin-left: 0em;
+    text-align: center;
     color:#fff;
     letter-spacing: 3px;
+    margin-top: 13em;
+    margin-left: 1.5em;
   }   
 section h2{
     font-size: 40 px;  
@@ -103,15 +129,16 @@ section h2{
 }
 .om-chaima h2 {
     font-size: 5em;
-    margin-bottom: 1em;
-    margin-top: 1em;
     color:#fff;
 }
 
 .tekst-chaima {
+    margin-top: 3em;
     font-size: 1.5em;
     color: #fff;
-
+ background-color: rgba(255,255,255, 0,1);
+ border-bottom: 1px solid;
+ border-top: 1px solid;
 }
 .arbejde h2{
     color:#fff;
@@ -125,9 +152,6 @@ font-size: 5em;
  color: #fff;
  text-transform: uppercase;
  text-align: center;
- margin-top: -2em;
-
-
 }
 
 .skole h1, .egne-projekter h1 {
@@ -138,8 +162,193 @@ height: 150px;
 width: 500px;
 text-align: center;
 line-height: 150px;
+margin: 0 auto;
+}
+
+.Evner h2 {
+ font-size: 5em;
+ color: #fff;
+ text-transform: uppercase;
+ text-align: center;
+}
+
+.element {
+    display: flex;
+    margin: 2em;
+}
+
+.logo {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 40px;
+    width: 60px;
+    margin: 0.8em 0.5em 0.5em 0.5em;
+    padding-top: 18px;
+    border: 1px solid;
+}
+
+.text {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: #A4B999;
+    height: 40px;
+    width: 180px;
+    margin: 0.5em;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    border: 1px solid;
+    font-size: x-large;
+}
+
+.Irække {
+    display: flex;
+    margin-left: 10%;
+    margin-right: auto;
+}
+
+.IIrække {
+    display: flex;
+    margin-left: 10%;
+    margin-right: auto;
+}
+
+.IIIrække {
+    display: flex;
+    margin-left: 10%;
+    margin-right: auto;
+}
+
+.elementt {
+    display: flex;
+    margin: 2em;
+}
+
+.textt {
+    position: relative;
+    color: white;
+    background-color:rgba(255, 255, 255, 0.0);
+    height: 15px;
+    width: 270px;
+    margin: 0.5em;   
+}
+
+
+.IrækkeI {
+    display: flex;
+    margin-left: 10%;
+    margin-right: auto;
+}
+
+.IIrækkeII {
+    display: flex;
+    margin-left: 10%;
+    margin-right: auto;
+}
+
+.IIIrækkeIII {
+    display: flex;
+    margin-left: 10%;
+    margin-right: auto;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 1em;
+  }
+
+*{
+margin:0;
+padding:0;
+font-family:'Open Sans Condensed', sans-serif;
+}
+
+
+.contact-section {
+    margin-bottom: 1em;
+}
+
+.contact-section h2 {
+    font-size: 5em;
+    margin-bottom: 1em;
+
+
+    color:#fff;
+text-align: center;
+color:#fff;
+}
+
+
+.contact-form{
+   max-width: 600px;
+   overflow: hidden;
+justify-content: center;
+margin: 0 auto;
+}
+
+.contact-form-text, .contact-form-text-v, .contact-form-text-h{
+
+   width: 100%;
+   box-sizing: border-box;
+   border: 0;
+   background: #A4B999;
+   padding: 20px 20px;
+   outline: none;
+   color: #fff; 
+   margin: 1em;
 }
 
 
 
-    
+.contact-form-text-v, .contact-form-text-h {
+    width: 400px;
+
+}
+
+.contact-form-text:focus, .contact-form-text-v:focus, .contact-form-text-h:focus{
+    box-shadow: 0 0 10px 4px #182152;
+}
+
+.textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+}
+.contact-form-btn{
+    float: right;
+    border: 0;
+    background:#182152;
+    color: #fff;
+    padding: 12px 50px;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 575px;
+    margin-right: 1em;
+}
+.contact-form-btn:hover {
+    background:#182152;
+}
+
+input [type="text"] {
+    color: #fff;
+}
+
+.horizontal {
+    display: flex;
+}
+
+.vertical {
+    width: 575px;
+}
+
+footer {
+background-color: #bcd7ea;
+padding: 5px;
+text-align: center;
+font-size: larger;
+} 
