@@ -11,6 +11,7 @@ list-style: none;
 body{
 background: #CC897C
 }
+
 /*header*/
 header {
     background-color: rgba(255, 255, 255, 0.0);
@@ -372,7 +373,7 @@ text-align: center;
 font-size: larger;
 } 
 /*Footer slut*/
-
+/*Her starter siden evner*/
 .baggrundsprojekt {
     background-image: url("billeder/baggrundprojekt.jpeg");
     background-position: center;
@@ -416,6 +417,7 @@ font-size: larger;
 img {
 height: 300px;
 }
+/*Her starter siden skole arbejde*/
 
 .ny-baggrund{
     background-image: url("billeder/lys.jpeg");
